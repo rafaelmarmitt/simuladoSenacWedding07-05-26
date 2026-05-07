@@ -8,7 +8,7 @@
 
 ### Como baixar o projeto e quais os requisitos:
 
-> [!PREREQUISITES]
+> [!NOTE]
 > 
 > Tecnologias necessárias: [MySQL Workbench 8.0](https://dev.mysql.com/downloads/mysql/8.0.html), [VSCode](https://code.visualstudio.com/)
 
