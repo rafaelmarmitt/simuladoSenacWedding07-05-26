@@ -3,9 +3,9 @@ const router = express.Router();
 const instrutorController = require('../controllers/instrutorController');
 
 
-router('/', instrutorController.listar);
-router('/', instrutorController.criar);
-router('/:id', instrutorController.editar);
-router('/:id', instrutorController.excluir);
+router.get('/', instrutorController.listar);
+router.post('/', instrutorController.criar);
+router.put('/:id', instrutorController.editar);
+router.delete('/:id', instrutorController.excluir);
 
-modules.export = router;
+module.exports = router;
