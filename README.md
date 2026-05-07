@@ -10,11 +10,11 @@ O sistema deve permitir que a instituição visualize quais oficinas estão disp
 
 > [!NOTE]
 > 
-> Tecnologias necessárias: [MySQL Workbench 8.0](https://dev.mysql.com/downloads/mysql/8.0.html), [VSCode](https://code.visualstudio.com/)
+> Tecnologias necessárias: [MySQL Workbench 8.0](https://dev.mysql.com/downloads/mysql/8.0.html{target=_blank}), [VSCode](https://code.visualstudio.com/{target=_blank})
 
 #### Como baixar:
  1. Baixe os programas acima (Ao baixar o VSCode selecione a "opção de abrir arquivos com VSCode")
- 1. Baixe o projeto pelo [GitHub](https://github.com/rafaelmarmitt/simuladoSenacWedding07-05-26)
+ 1. Baixe o projeto pelo [GitHub](https://github.com/rafaelmarmitt/simuladoSenacWedding07-05-26{target=_blank})
     ![Imagem Guia](/img/gitDown.png)
     Clique no botão Verde e após abrir a aba clique em Download ZIP   
 
@@ -31,7 +31,7 @@ O sistema deve permitir que a instituição visualize quais oficinas estão disp
  ```
  5. Adicione o Seeder no MySQL Workbench e execute o SQL que está no arquivo **banco.sql** da pasta **/BancoDeDados**
  6. Após isso abra o terminal do VSCode, para abrir apenas use o comando **ctrl-shift-''** e execute o comando `npm install express mysql2 cors dotenv` para instalar as dependências
- 7. Depois execute o comando `cd backend`no terminal e após isso `node server.js`, assim o sistema estará no ar, podendo ser acessado pelo link: [http://localhost:3000](http://localhost:3000)
+ 7. Depois execute o comando `cd backend`no terminal e após isso `node server.js`, assim o sistema estará no ar, podendo ser acessado pelo link: [http://localhost:3000](http://localhost:3000{target=_blank})
 
 
 
