@@ -2,9 +2,9 @@
 
 ## Objetivo do sistema:
 
->   Desenvolver uma aplicação Web para controle de inscrições em Oficinas, permitindo o cadastro de participantes, instrutores e oficinas, além da realização e consulta das inscrições   
->
->O sistema deve permitir que a instituição visualize quais oficinas estão disponíveis, quantas vagas ainda existem e quais participantes estão inscritos em cada oficina
+Desenvolver uma aplicação Web para controle de inscrições em Oficinas, permitindo o cadastro de participantes, instrutores e oficinas, além da realização e consulta das inscrições   
+
+O sistema deve permitir que a instituição visualize quais oficinas estão disponíveis, quantas vagas ainda existem e quais participantes estão inscritos em cada oficina
 
 ### Como baixar o projeto e quais os requisitos:
 
