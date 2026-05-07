@@ -40,3 +40,18 @@ fk_participante INT,
 FOREIGN KEY (fk_oficina) REFERENCES oficinas (id_oficina),
 FOREIGN KEY (fk_participante) REFERENCES participantes (id_participante)
 );
+
+INSERT INTO instrutores (nome, email, telefone, area_atuacao)
+VALUES
+('Carlos','carlos@gmail.com','(51)999237493','Doutor em Ciências da Computacao'),
+('Maria','maria@gmail.com','(51)999237495','Psicologa'),
+('João','joao@gmail.com','(51)999237406','CEO da Empresa Games.com');
+
+INSERT INTO oficinas (titulo, descricao, categoria, carga_horaria, data_oficina, horario, total_vagas, fk_instrutor) 
+VALUES
+    ('Oficina de ADS','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tortor sapien. Sed nec augue varius ante posuere pharetra nec eget purus.','Tecnologia','10 Horas','05-2026','10:30','8','1'),
+    ('Oficina de Autoconhecimento','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tortor sapien. Sed nec augue varius ante posuere pharetra nec eget purus.','Autoconhecimento','10 Horas','03-05-2026','15:00','8','2'),
+    ('Oficina de Desenvolvimento de Jogos','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tortor sapien. Sed nec augue varius ante posuere pharetra nec eget purus.','Tecnologia','10 Horas','04-05-2026','7:30','8','3'),
+    ('Oficina de Design para Redes Sociais','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tortor sapien. Sed nec augue varius ante posuere pharetra nec eget purus.','Tecnologia','10 Horas','04-05-2026','10:30','8','4'),
+    ('Oficina de Introdução à Programação','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tortor sapien. Sed nec augue varius ante posuere pharetra nec eget purus.','Tecnologia','10 Horas','08-05-2026','7:30','8','8');
+
