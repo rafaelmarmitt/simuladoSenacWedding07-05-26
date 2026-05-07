@@ -54,4 +54,3 @@ VALUES
     ('Oficina de Desenvolvimento de Jogos','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tortor sapien. Sed nec augue varius ante posuere pharetra nec eget purus.','Tecnologia','10 Horas','04-05-2026','7:30','8','3'),
     ('Oficina de Design para Redes Sociais','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tortor sapien. Sed nec augue varius ante posuere pharetra nec eget purus.','Tecnologia','10 Horas','04-05-2026','10:30','8','4'),
     ('Oficina de Introdução à Programação','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at tortor sapien. Sed nec augue varius ante posuere pharetra nec eget purus.','Tecnologia','10 Horas','08-05-2026','7:30','8','8');
-
